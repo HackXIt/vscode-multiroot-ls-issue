@@ -111,10 +111,14 @@ version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
     { name = "robotcode" },
+    { name = "robotframework" },
 ]
 
 [package.metadata]
-requires-dist = [{ name = "robotcode", specifier = ">=2.0.1" }]
+requires-dist = [
+    { name = "robotcode", specifier = ">=2.0.1" },
+    { name = "robotframework", specifier = ">=7.3.2" },
+]
 
 [[package]]
 name = "tomli-w"
