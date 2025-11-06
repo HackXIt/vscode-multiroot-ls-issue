@@ -1,0 +1,25 @@
+{
+    "folders": [
+        {
+            "path": "..",
+            "name": "Root",
+        },
+        {
+            "path": "../sub-workspace1",
+            "name": "Workspace1"
+        },
+        {
+            "path": "../sub-workspace2",
+            "name": "Workspace2"
+        },
+    ],
+    "settings": {
+        "files.exclude": {
+            "**/.git": true,
+            "**/.DS_Store": true,
+            "**/node_modules": true,
+            "**/.vscode/.history": true,
+            "sub-workspace*/**": true
+        }
+    }
+}
